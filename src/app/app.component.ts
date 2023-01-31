@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'basicCalculator';
+  showResult = "El resultado de la operación es "
+
+  setResult(result:number){
+    this.showResult = `${this.showResult} ${result}`
+  }
 }
