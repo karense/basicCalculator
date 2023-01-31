@@ -7,8 +7,8 @@
     border: .1rem solid #CCCCCC;
     border-radius: .5rem;
     margin: .2rem;
-    background: rgba(0,30,84,.95);
-    color: white;
+    background: #FFFFFF;
+    color: black;
     border-color: transparent;
 }
 
@@ -22,7 +22,7 @@ h1{
     margin: .6rem;
     padding: .8rem;
     font-size: 1.6rem;
-    border-width: 0px;
+    border-width: 1px;
     border-color: #CCCCCC;
     background-color: #FFFFFF;
     color: #000000;

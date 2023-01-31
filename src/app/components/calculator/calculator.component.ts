@@ -50,7 +50,7 @@ export class CalculatorComponent implements OnInit {
         break;
     }
     const actions = {
-      '-': this.calculatorForm.value.number1 + this.calculatorForm.value.number2,
+      '-': this.calculatorForm.value.number1 - this.calculatorForm.value.number2,
       '/': this.calculatorForm.value.number1 / this.calculatorForm.value.number2,
       '%': this.calculatorForm.value.number1 % this.calculatorForm.value.number2,
       '*': this.calculatorForm.value.number1 * this.calculatorForm.value.number2,

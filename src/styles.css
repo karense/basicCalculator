@@ -6,7 +6,7 @@ html{
     font-family: 'Poppins', sans-serif;
     background-color: #000000;
     opacity: 1;
-    background-image:  radial-gradient(#00b3ff 1.7000000000000002px, transparent 1.7000000000000002px), radial-gradient(#00b3ff 1.7000000000000002px, #000000 1.7000000000000002px);
+    background-image:  radial-gradient(#FFFFFF 1.7000000000000002px, transparent 1.7000000000000002px), radial-gradient(#FFFFFF 1.7000000000000002px, #000000 1.7000000000000002px);
     background-size: 68px 68px;
     background-position: 0 0,34px 34px;
 }
