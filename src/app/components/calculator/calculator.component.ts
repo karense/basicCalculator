@@ -15,8 +15,6 @@ export class CalculatorComponent implements OnInit {
   @Output()
   resultOuput = new EventEmitter<number>();
 
-  number1: number = 0;
-  number2: number = 0;
   result: number = 0
   calculatorForm: FormGroup;
 
@@ -49,16 +47,8 @@ export class CalculatorComponent implements OnInit {
       default:
         break;
     }
-    const actions = {
-      '-': this.calculatorForm.value.number1 - this.calculatorForm.value.number2,
-      '/': this.calculatorForm.value.number1 / this.calculatorForm.value.number2,
-      '%': this.calculatorForm.value.number1 % this.calculatorForm.value.number2,
-      '*': this.calculatorForm.value.number1 * this.calculatorForm.value.number2,
-      "": 0
-    }
-
-    this.resultOuput.emit(this.result)
     
+    this.resultOuput.emit(this.result)
 
   }
 

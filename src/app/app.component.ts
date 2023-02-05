@@ -10,6 +10,6 @@ export class AppComponent {
   showResult = "El resultado de la operación es "
 
   setResult(result:number){
-    this.showResult = `${this.showResult} ${result}`
+    this.showResult = `El resultado de la operación es ${result}`
   }
 }
